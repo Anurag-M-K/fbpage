@@ -85,6 +85,7 @@ body{
     padding-left: 60px;
     font-size: 44px;
     font-weight: bold;
+    margin-top: 12px;
 }
 .second{
     padding-left: 70px;
@@ -183,10 +184,23 @@ body{
     
 
 }
-.footer-english{
-    color: grey;
+.footer1 li{
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 14px;
 }
-.footer-last{
-    color: #0e2f63;
+.footer2 li{
+    display: inline-block;
+    margin-left: 36px;
+    margin-top: 6px;
+    font-size: 14px;
 }
-
+.footer2 li:hover{
+    cursor: pointer;
+    color: rgb(10, 47, 236);
+}
+.last_footer{
+    color: #9b9b9c;
+    font-size: 12px;
+    margin-left: 76px;
+}
